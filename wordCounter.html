@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="wordCounter.css" />
+  <title>Document</title>
+</head>
+<body>
+  <div class="total">
+    <h1>Word Counter</h1>
+    <textarea id="textarea" rows="15" cols="55" onkeyup="printResult()"></textarea>
+    <div class="result">
+      <h4>공백 포함 글자 수 : <span id="Word">0</span></h4>
+      <h4>공백 제외 글자 수 : <span id="nonSpace_Word">0</span></h4>
+    </div>
+    <div class="bottom">
+      <p>"Our greatest weakness lies in giving up. </p>
+      <p>The most certain way to succeed is always to try just one more time."</p>
+      <p>- Thomas Edison</p>
+    </div>
+  </div>
+<script src="wordCounter.js"></script>
+<script src="backGround.js"></script>
+</body>
+</html>
